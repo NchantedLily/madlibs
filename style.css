@@ -1,3 +1,4 @@
+
 body{
     background-color: darkred;
 
@@ -29,19 +30,103 @@ body{
             
         }
        
+        <style>
+      
+      
+       /* Only change code below this line */
+          d-1:white;
+        
+          d-2:white;
+          d-3:white;
+          d-4:white;
+          d-5:white;
+          d-6:white;
+          d-7:white;
+          d-8:white;
+    
+
+
+
+      /* Only change code above this line */
+
+
        
-       /*                            */
+    
+       .d1{
+           background: white;
+           order:1;
+           grid-column-start: auto;
+           grid
+           
+        }
+       .d2{
+           background: white;
+           order: 2;
+           grid-row: auto;
+           
+
+        } 
+       .d3{
+           background:white;
+           order: 3;
+           grid-row: auto;
+           
+        }
+       .d4{
+           background: white;
+           order: 4;
+           grid
+           
+        }  
+       .d5{
+           background: white;
+           order: 5;
+           
+        }
+       .d6{
+           background: white;
+           order: 6;
+           
+        }
+       .d7{
+           background: white;
+           order: 7;
+           
+        }
+       .d8{
+           background: white;
+           order: 8;
+           
+        }
+     
+     
+      .container{
+          width: 100%;
+          font-size: 40px;
+          display: grid;
+          grid-template-columns:50px;
+          grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+          background-color:silver;
+          
+          
+          
+
         
-        
-        
-       /*                           */
-       
-       
-       .form{
-        flex-direction: column; 
-        align-self: center;
-        
-       }
+      }
+      
+      </style>
+
+       <div class="grid">
+       <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3">3</div>
+      <div class="d4">4</div>
+      <div class="d5">5</div>
+      <div class="d6">6</div>
+      <div class="d7">7</div>
+      <div class="d8">8</div>
+     </div>  
+      
            
        
 
