@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-     
+     <style>
+        #move{
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          margin: auto;
+        }
+     </style>
 <!-- Put mad libs story in p tag -->
-   
+   <div id="move">
      <input type="text" placeholder="NOUN " id="word1">
      <input type="text" placeholder="NOUN " id="word2">
      <input type="text" placeholder="NOUN"  id="word3">
@@ -20,9 +26,9 @@
      <input type="text" placeholder="NOUN"  id="word6">
      <input type="text" placeholder="THING" id="word7">
      <input type="text" placeholder="VERB"  id="word8">
-
-      <button onclick="createParagraph()">Click me</button>
-      
+     <button onclick="createParagraph()">Click me</button>
+    </div>
+    
       <div id="answer"></div>
         
  
@@ -33,6 +39,6 @@
         <div class="imgCenter">
            <img src="https://rukminim2.flixcart.com/image/416/416/jxjahe80/poster/z/d/h/medium-anime-sword-art-online-sword-asuna-yuuki-13-19-inches-original-imaf9kzbwstrutkb.jpeg?q=70">
         </div>
-<script src="./index.js"></script>
+<script src="./app.js"></script>
 </body>
 </html>
