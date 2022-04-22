@@ -21,8 +21,8 @@ function createParagraph(){
 
 
 
-var paragragh = " I am the " + wordOne + " of my sword." + wordTwo + " is my body, and fire is my " + wordThree + ". I have created over a thousand " + wordFour + ". Unknown to death. Nor known to " + wordFive + ". Have withstood" + wordSix + " to create many weapons. Yet, those hands will never hold " + wordSeven + ". So as I " + wordEight + ", 'Unlimited Blade Works'.- Archer" 
+var paragraph = " I am the " + wordOne + " of my sword." + wordTwo + " is my body, and fire is my " + wordThree + ". I have created over a thousand " + wordFour + ". Unknown to death, Nor known to " + wordFive + ". Have withstood" + wordSix + " to create many weapons. Yet, those hands will never hold " + wordSeven + ". So as I " + wordEight + ", 'Unlimited Blade Works'.- Archer" 
 
 
-document.getElementById('anwser').innerHTML= paragraph;
+document.getElementById('answer').innerHTML= paragraph;
 }
