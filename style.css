@@ -1,8 +1,4 @@
 
-body{
-    background-color: darkred;
-
-}
       p{
         color:aliceblue;
         font-size: 20;
@@ -12,16 +8,22 @@ body{
          }
         h1{
             color: black;
-            font-size: 30;
+            font-size: 45;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: 900;
             font-style:oblique;
             font-stretch: extra-expanded;
             text-align: center;
+            text-shadow: 3px;
+        
             
         }
         button{
-            background-color: aqua;
+            background-color:#95141c;
+            color:#e6e6e6 ;
+            font-weight: bold;
+
+            
             
         }
 
@@ -110,6 +112,7 @@ body{
           
           
           
+          
 
         
       }
@@ -128,5 +131,23 @@ body{
      </div>  
       
            
-       
+body, html{
+    height:100%;
+}
 
+html{
+    background-image: url("https://rukminim2.flixcart.com/image/416/416/jxjahe80/poster/z/d/h/medium-anime-sword-art-online-sword-asuna-yuuki-13-19-inches-original-imaf9kzbwstrutkb.jpeg?q=70") ;
+
+    height:100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+ 

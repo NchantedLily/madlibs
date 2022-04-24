@@ -26,3 +26,12 @@ var paragraph = " I am the " + wordOne + " of my sword." + wordTwo + " is my bod
 
 document.getElementById('answer').innerHTML= paragraph;
 }
+
+
+
+
+
+
+
+
+
